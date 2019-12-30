@@ -11,7 +11,10 @@ def long_planeteer_calls(planeteer_calls)
   short_words = []
   long_words = []
   
-  if planeteer_calls.select { |item| 
+  if planeteer_calls.select { |item| item.length > 4 return true }
+  else 
+    return false 
+    
 end
 
 def find_the_cheese# code an argument here
