@@ -8,7 +8,7 @@ def summon_captain_planet(planeteer_calls)
   end
 
 def long_planeteer_calls(planeteer_calls)
- calls = planeteer_calls.select { |item, | item.length > 4 }
+ calls = planeteer_calls.select { |item| item.length > 4 }
   
    if calls.reduce {|item, item2| item || item2}
     return true
