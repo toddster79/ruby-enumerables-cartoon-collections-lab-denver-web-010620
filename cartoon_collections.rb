@@ -8,11 +8,8 @@ def summon_captain_planet(planeteer_calls)
   end
 
 def long_planeteer_calls(planeteer_calls)
- if planeteer_calls.select { |item, | item.length > 4 }
-   true
- else 
-   false 
- end 
+ calls = planeteer_calls.select { |item, | item.length > 4 }
+  
 end
 
 def find_the_cheese# code an argument here
