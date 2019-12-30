@@ -9,8 +9,8 @@ def summon_captain_planet(planeteer_calls)
 
 def long_planeteer_calls(planeteer_calls)
  if planeteer_calls.select { |item| item.length > 4 }
- else 
-   return false 
+ elsif 
+  planeteer_calls.select { |item| item.length < 4 }
  end 
  return true 
 end
