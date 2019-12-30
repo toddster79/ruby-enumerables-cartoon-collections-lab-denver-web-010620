@@ -12,7 +12,7 @@ def long_planeteer_calls(planeteer_calls)
    true
  elsif 
   planeteer_calls.select { |item| item.length <= 4 }
-  return false 
+  false 
  end 
 end
 
